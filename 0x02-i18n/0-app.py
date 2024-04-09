@@ -12,4 +12,4 @@ def index():
     return render_template("0-index.html",)
 
     if __neme__ == "__main__":
-        app.run()
+        app.run(debug = true)
